@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <title>Thought Reframer - ChatterHeal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 ChatterHeal: Thought Reframer</h1>
+    <div id="app">
+      <div id="progress-container">
+        <div id="progress-text">Question 1 of 11</div>
+        <div id="progress-bar">
+          <div id="progress-fill"></div>
+        </div>
+      </div>
+      <div id="prompt-box"></div>
+      <textarea id="user-input" placeholder="Type your response..." rows="4"></textarea>
+      <div class="button-container">
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+
+    <div id="summary-box" class="hidden">
+      <h2>Your Reframed Thought 💡</h2>
+      <div id="summary"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
